@@ -46,6 +46,7 @@
 html {
   font-size: 100%;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 /* Reset default styling */
@@ -70,6 +71,7 @@ body {
   color: var(--text-color);
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
+  height: 100%;
 }
 
 /* Navbar */
@@ -138,12 +140,22 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  margin-bottom: 0;
 }
 
 .profile-image {
   width: 150px;
   border-radius: 50%;
   animation: bounce 1s infinite alternate;
+}
+
+.official-account-qr {
+  margin: 0 0 -2rem;
+  max-width: 90%;
+}
+
+.attribution {
+  margin: 0.9rem auto 0.5rem;
 }
 
 @keyframes bounce {
