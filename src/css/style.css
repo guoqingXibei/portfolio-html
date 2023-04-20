@@ -98,6 +98,6 @@ body {
   margin-bottom: 10rem;
 }
 
-#beian {
-  margin-bottom: 1rem;
+#gongan-beian * {
+  float: left;
 }
